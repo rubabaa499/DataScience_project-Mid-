@@ -1,0 +1,5 @@
+mydataframe<-read.csv(file,header=logical_valure, sep ="delimiter")
+
+mydata<-read.csv("D:/Study/Aiub/9th Semester/Data Science/Lab/data.csv",header=TRUE, sep=",")
+
+mydata

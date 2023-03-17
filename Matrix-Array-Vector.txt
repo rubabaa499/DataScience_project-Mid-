@@ -1,0 +1,37 @@
+vector:
+
+a <- c(1,2,3,4,5,-2,4)
+b <- c("one", "two","three")
+c <- c(TRUE,TRUE, TRUE, FALSE, TRUE,FALSE)
+
+nchar(c)
+
+x <-c(2,3,4,5)
+x+2 #increment of 2 
+
+
+b<-c(420,278,434)
+c<-c(49,53,909)
+sum(b)
+
+sum (b+c)
+sum(b*c)
+
+sort(b)
+b[2]
+
+
+
+Matrix:
+
+
+mymatrix<-matrix(1:20,nrow=5,ncol=4)
+print(mymatrix)
+print(mymatrix[4][2])
+ 
+mymatrix[1,]
+mymatrix[1,c(2,3)]
+
+ 
+myarray <- array (1:24,c(2,3,2))
+myarray

@@ -1,0 +1,94 @@
+print("Hello")
+
+assign('var2', 'data')
+print(var2)
+
+
+1+1
+2+3
+7+6
+sqrt(4)
+pi
+
+x<-2
+print(x)
+x
+y<-3
+
+cat(x,y)  #ekshte variable print korar jonno 
+x+y
+
+x<-5.66
+ceiling(x)
+floor(x)
+
+
+str<-"Hello"
+tolower(str) #lower case
+nchar(str)  # number count with space 
+
+x<-"Mohi"
+y<-"Anando"
+paste(x,y)  #combine string
+
+#if....else
+
+a<- 80
+b<- 50
+
+if(a>b){
+  print("a is greater than b")
+}
+
+
+
+i<- 1
+while(i<6){
+  print(i)
+  i<- i+1
+}
+
+for(x in 1:10)
+{
+  print(x)
+}
+
+#function called
+
+sum<-function()
+{
+  print("hello")
+  
+}
+
+sum()
+
+
+
+#function argument
+
+sum<-function(sum1, sum2)
+{
+  paste(sum1, sum2)
+  
+}
+
+sum("add", "sub")
+
+
+#user input = readline (prompt hajaira) 
+#even or odd check
+
+x <-  as.integer(readline(prompt = "Enter the number: "))
+
+if((x%%2) ==0){
+  print("x is even")
+}else{
+  print("x is odd")
+}
+
+
+
+
+
+
